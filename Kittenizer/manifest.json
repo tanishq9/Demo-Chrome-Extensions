@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Kittenizer",
+    "version": "0.1",
+    "web_accessible_resources": [
+        "*.jpg"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
